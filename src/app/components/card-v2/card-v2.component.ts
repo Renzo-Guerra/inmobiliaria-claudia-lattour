@@ -14,8 +14,8 @@ export class CardV2Component implements OnInit{
   constructor(private router: Router){ }
 
   ngOnInit(): void {
-    let link = this.router.url.replace('#propiedades', '');
-    if(link.endsWith('inicio')){
+    let link = window.location.href.replace('#propiedades', '');
+    if(!link.endsWith('/')){
       link = link.concat('/');
     }
     this.textoContacto = link.concat(`${this.data.id_propiedad}`);
