@@ -1,6 +1,6 @@
 #hero-container{
   height: 100vh;
-  background: url(../../assets/imgs/hero-bg-small.jpg);
+  background: url(/assets/imgs/hero-bg-small.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -28,7 +28,7 @@
 
 @media screen and (min-width: 600px){
   #hero-container{
-    background: url(../../assets/imgs/hero-bg-big.jpg);
+    background: url(/assets/imgs/hero-bg-big.jpg);
     background-repeat: no-repeat;
     background-position:left;
     background-size: cover;
