@@ -1,0 +1,25 @@
+.contenedor{
+  background-color: rgb(250 250 250);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  padding: 1rem;
+  text-align: center;
+  .message-medium{
+    font-size: 5vw;
+    font-weight: 900;
+  }
+  .message-big{
+    font-size: 15vw;
+    font-weight: 900;
+  }
+  .error-text{
+    background-image: url(/assets/imgs/bg-whoops.jpg);
+    background-size: cover;
+    background-clip: text;
+    background-position: center;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+}

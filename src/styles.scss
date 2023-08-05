@@ -22,3 +22,10 @@ h2 {
   width: 2rem;
   height: 2rem;
 }
+.texto-contraible {
+  height: min-content;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}

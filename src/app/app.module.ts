@@ -6,22 +6,26 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CabeceraComponent } from './components/cabecera/cabecera.component';
 import { HomeComponent } from './pages/home/home.component';
-import { CardComponent } from './components/card-v1/card-v1.component';
-import { CarruselComponent } from './components/carrusel/carrusel.component';
-import { GaleriaV1Component } from './components/galeria-v1/galeria-v1.component';
-import { GaleriaV2Component } from './components/galeria-v2/galeria-v2.component';
-import { CardV2Component } from './components/card-v2/card-v2.component';
+import { GaleriaComponent } from './components/galeria/galeria.component';
+import { CardComponent } from './components/card/card.component';
+import { NotFoundComponent } from './pages/not-found/not-found.component';
+import { BtnInicioComponent } from './components/btn-inicio/btn-inicio.component';
+import { PropertyComponent } from './pages/property/property.component';
+import { ContactoComponent } from './pages/contacto/contacto.component';
+import { PropiedadesComponent } from './pages/propiedades/propiedades.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CabeceraComponent,
     HomeComponent,
+    GaleriaComponent,
     CardComponent,
-    CarruselComponent,
-    GaleriaV1Component,
-    GaleriaV2Component,
-    CardV2Component
+    NotFoundComponent,
+    BtnInicioComponent,
+    PropertyComponent,
+    ContactoComponent,
+    PropiedadesComponent
   ],
   imports: [
     BrowserModule,
