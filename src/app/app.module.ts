@@ -13,6 +13,7 @@ import { BtnInicioComponent } from './components/btn-inicio/btn-inicio.component
 import { PropertyComponent } from './pages/property/property.component';
 import { ContactoComponent } from './pages/contacto/contacto.component';
 import { PropiedadesComponent } from './pages/propiedades/propiedades.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { PropiedadesComponent } from './pages/propiedades/propiedades.component'
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgOptimizedImage
+    NgOptimizedImage,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
